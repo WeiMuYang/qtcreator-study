@@ -1,0 +1,2 @@
+# qtcreator-study
+qt C++ 
