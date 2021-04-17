@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/x-diamond.svg</file>
+        <file>icons/x-diamond-fill.svg</file>
+        <file>icons/x-octagon.svg</file>
+        <file>icons/x-octagon-fill.svg</file>
+        <file>icons/x-square.svg</file>
+        <file>icons/x-square-fill.svg</file>
+        <file>icons/zoom-in.svg</file>
+        <file>icons/zoom-out.svg</file>
+    </qresource>
+</RCC>

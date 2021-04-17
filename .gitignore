@@ -1,0 +1,32 @@
+# 一些目录
+# Prerequisites
+*.d
+# Compiled Object files
+*.slo
+*.lo
+# Prerequisites
+*.d
+# Object files
+*.o
+*.ko
+# Makefile files  
+Makefile*
+# 大于100M 
+*-big.*
+# 私有不更新
+*-pvt.*
+*人名*
+# 压缩文件
+*.zip
+*.rar
+*.7z
+
+*.pdf
+
+/icons/
+*.svg
+
+# 未完成 not finished
+*-nf.*
+*/-nf/
+

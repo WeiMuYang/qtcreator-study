@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1421</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="MyTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>1341</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>ds</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>fdfd</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string> fsddf</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>sdfdf</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>gffg</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1421</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MyTableWidget</class>
+   <extends>QTableWidget</extends>
+   <header location="global">my_table_widget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

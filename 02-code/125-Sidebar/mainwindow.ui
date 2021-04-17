@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QListWidget{
+	background:white;
+	color:black;
+	border:none;
+}
+ 
+QListWidget::item{
+	border:none;
+        height: 35px;
+}
+ 
+QListWidget::item:hover{
+    background:rgb(252,240,193)
+}
+ 
+QListWidget::item:selected{
+	background:rgb(252,233,161);
+	color:black;
+}
+ 
+QScrollBar:vertical {               
+    background:transparent;
+    width:9px;
+    margin: 0px 0px 2px 0px;
+}
+ 
+QScrollBar::handle:vertical {
+    background: rgb(195, 195, 195);
+    min-height: 20px;
+    border-radius: 3px;
+}
+ 
+QScrollBar::handle:vertical:hover{
+    background:rgba(0,0,0,30%);
+}
+ 
+QScrollBar::add-line:vertical {
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+ 
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>221</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>221</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#listWidget{
+   background-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

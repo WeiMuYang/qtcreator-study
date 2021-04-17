@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="combobox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#combobox {     
+    background-color: rgb(54, 98, 180);    	/*  背景色   */
+	border:2px solid #00ffff; 				/*  边框设置  */
+    /* border必须有， background-color才能生效  */
+	color:#ffffff;                      	/*  字体颜色  */  
+    font-size: 18px;                     	/*  字体大小 */ 
+	font-family: 微软雅黑;					/*  字体 */ 
+    padding:1px 1px 1px 30px;           	/*  内边框：上右下左  */
+	border-radius:10px;               		/*  四个角的弧度半径  */
+    border-style: flat;						/*  扁平化  */
+    text-align:center;                   
+   /*  对齐方式： left，right，center  */
+} </string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="minimumContentsLength">
+     <number>0</number>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>新建项目1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新建项目2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新建项目3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {     
+    background-color: rgb(54, 98, 180);    	/*  背景色   */
+	border:2px solid #00ffff; 				/*  边框设置  */
+    /* border必须有， background-color才能生效  */
+	color:#ffffff;                      	/*  字体颜色  */  
+    font-size: 18px;                     	/*  字体大小 */ 
+	font-family: 微软雅黑;					/*  字体 */ 
+    padding:1px 1px 1px 30px;           	/*  内边框：上右下左  */
+	border-radius:10px;               		/*  四个角的弧度半径  */
+    border-style: flat;						/*  扁平化  */
+    text-align:center;                   
+   /*  对齐方式： left，right，center  */
+} </string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

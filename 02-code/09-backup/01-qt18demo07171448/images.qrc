@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/true.png</file>
+        <file>img/false.png</file>
+        <file>img/Off.png</file>
+        <file>img/On.png</file>
+        <file>img/bugle.png</file>
+        <file>img/pelople.png</file>
+        <file>img/error.png</file>
+        <file>img/pie30.png</file>
+        <file>img/pie60.png</file>
+        <file>img/pie100.png</file>
+        <file>img/warning.png</file>
+    </qresource>
+</RCC>

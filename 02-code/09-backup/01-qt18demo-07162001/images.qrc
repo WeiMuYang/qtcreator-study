@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/true.png</file>
+        <file>img/false.png</file>
+        <file>img/Off.png</file>
+        <file>img/On.png</file>
+        <file>img/bugle.png</file>
+        <file>img/pelople.png</file>
+    </qresource>
+</RCC>
