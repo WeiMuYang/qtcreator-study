@@ -1,0 +1,16 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="com.test.hotel.registry">
+    <method name="checkIn">
+      <arg type="i" direction="out"/>
+      <arg name="num_room" type="i" direction="in"/>
+    </method>
+    <method name="checkOut">
+      <arg type="i" direction="out"/>
+      <arg name="num_room" type="i" direction="in"/>
+    </method>
+    <method name="query">
+      <arg type="i" direction="out"/>
+    </method>
+  </interface>
+</node>
